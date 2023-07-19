@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import BucketForm from './BucketForm';
-import Bucket from './Bucket';
+import BucketForm from './Footer';
+import Bucket from './Header';
 
 function BucketList() {
   const [bucket, setBucket] = useState([]);
