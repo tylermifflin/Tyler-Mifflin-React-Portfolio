@@ -22,7 +22,19 @@ export default function Projectcontainer(){
       default:
         return <Aboutme />;
     }
-  }
+  };
+
+  const handlepagechange = (page) => setcurrentpage(page);
+
+  return (
+    <div>
+      <Header currentpage={currentpage} handlepagechange={handlepagechange} />
+      <main>
+        {renderpage()}
+      </main>
+      <Footer />
+    </div>
+  );
 }
 
  
