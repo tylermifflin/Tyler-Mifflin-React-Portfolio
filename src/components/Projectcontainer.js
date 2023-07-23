@@ -6,6 +6,8 @@ import Portfolio from './components/pages/Portfolio';
 import Resume from './components/pages/Resume';
 import Contact from './components/pages/Contact';
 
-
+export default function Projectcontainer(){
+  const [currentpage, setcurrentpage] = useState('Aboutme');
+}
 
  
