@@ -8,6 +8,21 @@ import Contact from './components/pages/Contact';
 
 export default function Projectcontainer(){
   const [currentpage, setcurrentpage] = useState('Aboutme');
+
+  const renderpage = () => {
+    switch (currentpage) {
+      case 'Aboutme':
+        return <Aboutme />;
+      case 'Portfolio':
+        return <Portfolio />;
+      case 'Resume':
+        return <Resume />;
+      case 'Contact':
+        return <Contact />;
+      default:
+        return <Aboutme />;
+    }
+  }
 }
 
  
