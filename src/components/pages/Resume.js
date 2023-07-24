@@ -10,7 +10,6 @@ export default function Resume() {
             <ul>
                 <li>
                     <a href="https://docs.google.com/document/d/17geriMyVB5jSeXVxP7kVoFsI4QCCEr3K/edit?usp=sharing&ouid=114561379459160840512&rtpof=true&sd=true">Tyler Mifflin's Resume</a>
-                </li>
             </ul>
         </div>
     )
