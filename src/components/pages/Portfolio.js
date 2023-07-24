@@ -7,6 +7,8 @@ export default function Portfolio() {
             <p>
             Here is a list of my projects:
             </p>
-            <ul>
-                <li>
-                    <a href="
+            {/* add 6 projects with an image, link to github and a link to deployed project */}
+            <div>
+                    <a href="https://becomethebestyou.herokuapp.com/">Become</a>
+                    <a href="https://github.com/tylermifflin/Become">Github</a>
+            </div>
