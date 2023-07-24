@@ -9,6 +9,7 @@ export default function Portfolio() {
             </p>
             {/* add 6 projects with an image, link to github and a link to deployed project */}
             <div>
+            <img src="../images/priestlakenorthernlights.jpg" alt="a picture of the northern lights over Priest Lake"></img>
                     <a href="https://becomethebestyou.herokuapp.com/">Become</a>
                     <a href="https://github.com/tylermifflin/Become">Github</a>
             </div>
