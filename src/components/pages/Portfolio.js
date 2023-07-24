@@ -18,3 +18,9 @@ export default function Portfolio() {
                     <a href="https://dkargis.github.io/team-Inception/" class="whats-that-plant">Sherpa Trails</a>
                     <a href="https://github.com/Dkargis/team-Inception">Github</a>
             </div>
+            <div>
+                <img src="../northernlightsiceland21.jpg" alt="a picture of the northern lights in Iceland"></img>
+                <a href="https://tylermifflin.github.io/Weather-Tracker/" class="photography-project">Weather Tracker</a>
+                <a href="https://github.com/tylermifflin/Weather-Tracker">Github</a>
+            </div>
+                
