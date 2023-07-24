@@ -13,3 +13,8 @@ export default function Portfolio() {
                     <a href="https://becomethebestyou.herokuapp.com/">Become</a>
                     <a href="https://github.com/tylermifflin/Become">Github</a>
             </div>
+            <div>
+            <img src="../images/mesaarch.jpg" alt="a picture or Mesa Arch, Canyonlands"></img>
+                    <a href="https://dkargis.github.io/team-Inception/" class="whats-that-plant">Sherpa Trails</a>
+                    <a href="https://github.com/Dkargis/team-Inception">Github</a>
+            </div>
