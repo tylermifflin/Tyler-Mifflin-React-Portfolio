@@ -28,4 +28,9 @@ export default function Portfolio() {
                     <a href="https://superscheduler.herokuapp.com/" class="create-the-life-of-your-dreams">Super Scheduler</a>
                     <a href="https://github.com/tylermifflin/Super-Scheduler">Github</a>
             </div>
+            <div>
+            <img src="../images/montrotuiridge.jpg" alt="a picture of a mountain ridge overlooking the ocean"></img>
+                    <a href="https://tylermifflin.github.io/Perfect-Planner/" class="travel-stoked">Perfect Planner</a>
+                    <a href="https://github.com/tylermifflin/Perfect-Planner">Github</a>
+            </div>
                 
