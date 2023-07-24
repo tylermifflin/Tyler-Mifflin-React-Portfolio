@@ -19,8 +19,13 @@ export default function Portfolio() {
                     <a href="https://github.com/Dkargis/team-Inception">Github</a>
             </div>
             <div>
-                <img src="../northernlightsiceland21.jpg" alt="a picture of the northern lights in Iceland"></img>
+                <img src="../images/northernlightsiceland21.jpg" alt="a picture of the northern lights in Iceland"></img>
                 <a href="https://tylermifflin.github.io/Weather-Tracker/" class="photography-project">Weather Tracker</a>
                 <a href="https://github.com/tylermifflin/Weather-Tracker">Github</a>
+            </div>
+            <div>
+            <img src="../images/reflectioncanyon.jpeg" alt="a picture of reflection canyon"></img>
+                    <a href="https://superscheduler.herokuapp.com/" class="create-the-life-of-your-dreams">Super Scheduler</a>
+                    <a href="https://github.com/tylermifflin/Super-Scheduler">Github</a>
             </div>
                 
