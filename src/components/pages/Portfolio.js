@@ -1,6 +1,6 @@
 import React from 'react';
 
-const imagestyle = {,
+const imagestyle = {
     height: "50vh",
     display: "flex",
 }

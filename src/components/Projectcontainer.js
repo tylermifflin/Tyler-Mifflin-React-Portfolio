@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Aboutme from './components/pages/Aboutme';
-import Portfolio from './components/pages/Portfolio';
-import Resume from './components/pages/Resume';
-import Contact from './components/pages/Contact';
+import Header from './Header';
+import Footer from './Footer';
+import Aboutme from './pages/Aboutme';
+import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
+import Contact from './pages/Contact';
 
 export default function Projectcontainer(){
   const [currentpage, setcurrentpage] = useState('Aboutme');
