@@ -2,12 +2,16 @@
 
 import React from 'react';
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 export default function Footer() {
     return (
         <footer>
-            <div>
+            <div className='container'> 
+             <div className='row'>
+               <div className='col text-center'>
+
                 <a href="https://github.com/tylermifflin" target="_blank" rel="noopener noreferrer">
                     <FaGithub />
                 </a>
