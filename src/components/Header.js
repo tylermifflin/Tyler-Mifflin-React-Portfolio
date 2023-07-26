@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Header({currentpage, handlepagechange ]) {
+export default function Header({currentpage, handlepagechange }) {
     return (
         <header>
             <h1>Tyler Mifflin</h1>
