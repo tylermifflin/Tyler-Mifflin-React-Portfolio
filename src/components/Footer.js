@@ -10,4 +10,6 @@ export default function Footer() {
                 <a href="https://github.com/tylermifflin" target="_blank" rel="noopener noreferrer">
                     <FaGithub />
                 </a>
-                
+                <a href="https://www.linkedin.com/in/tyler-mifflin-116ba9132/" target="_blank" rel="noopener noreferrer">
+                    <FaLinkedin />
+                </a>
