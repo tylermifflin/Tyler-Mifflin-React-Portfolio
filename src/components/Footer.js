@@ -13,3 +13,10 @@ export default function Footer() {
                 <a href="https://www.linkedin.com/in/tyler-mifflin-116ba9132/" target="_blank" rel="noopener noreferrer">
                     <FaLinkedin />
                 </a>
+                <a href="https://www.instagram.com/tymiff/" target="_blank" rel="noopener noreferrer">
+                    <FaInstagram />
+                </a>
+            </div>
+        </footer>
+    );
+}
