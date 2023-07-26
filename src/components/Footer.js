@@ -11,16 +11,27 @@ export default function Footer() {
             <div className='container'> 
              <div className='row'>
                <div className='col text-center'>
-
-                <a href="https://github.com/tylermifflin" target="_blank" rel="noopener noreferrer">
+                <nav className='navbar navbar-expand-lg navbar-light bg-light'>
+                 <ul className='navbar-nav'>
+                    <li className='nav-item'>
+                <a href="https://github.com/tylermifflin" target="_blank" rel="noopener noreferrer" className="nav-link">
                     <FaGithub />
                 </a>
-                <a href="https://www.linkedin.com/in/tyler-mifflin-116ba9132/" target="_blank" rel="noopener noreferrer">
+                    </li>
+                    <li className='nav-item'>
+                <a href="https://www.linkedin.com/in/tyler-mifflin-116ba9132/" target="_blank" rel="noopener noreferrer" className="nav-link">
                     <FaLinkedin />
                 </a>
-                <a href="https://www.instagram.com/tymiff/" target="_blank" rel="noopener noreferrer">
+                    </li>
+                    <li className='nav-item'>
+                <a href="https://www.instagram.com/tymiff/" target="_blank" rel="noopener noreferrer" className="nav-link">
                     <FaInstagram />
                 </a>
+                    </li>
+                    </ul>
+                </nav>
+            </div>
+            </div>
             </div>
         </footer>
     );
