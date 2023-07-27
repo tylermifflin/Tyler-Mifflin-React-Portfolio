@@ -16,22 +16,22 @@ export default function Header({currentpage, handlepagechange }) {
             <nav className='navbar navbar-expand-lg'>
                 <ul className='navbar-nav'>
                     <li className='nav-item'>
-                        <a href="#aboutme" target="_blank" rel="noopener noreferrer" style={linkstyle} onClick={() => handlepagechange('Aboutme')} className={currentpage === 'Aboutme' ? 'nav-link active' : 'nav-link'}>
+                        <a href="#aboutme" style={linkstyle} onClick={() => handlepagechange('Aboutme')} className={currentpage === 'Aboutme' ? 'nav-link active' : 'nav-link'}>
                             About Me
                         </a>
                     </li>
                     <li className='nav-item'>
-                        <a href="#portfolio" target="_blank" rel="noopener noreferrer" style={linkstyle} onClick={() => handlepagechange('Portfolio')} className={currentpage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>
+                        <a href="#portfolio" style={linkstyle} onClick={() => handlepagechange('Portfolio')} className={currentpage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>
                             Portfolio
                         </a>
                     </li>
                     <li className='nav-item'>
-                        <a href="#resume" target="_blank" rel="noopener noreferrer" style={linkstyle} onClick={() => handlepagechange('Resume')} className={currentpage === 'Resume' ? 'nav-link active' : 'nav-link'}>
+                        <a href="#resume" style={linkstyle} onClick={() => handlepagechange('Resume')} className={currentpage === 'Resume' ? 'nav-link active' : 'nav-link'}>
                             Resume
                         </a>
                     </li>
                     <li className='nav-item'>
-                        <a href="#contact" target="_blank" rel="noopener noreferrer" style={linkstyle} onClick={() => handlepagechange('Contact')} className={currentpage === 'Contact' ? 'nav-link active' : 'nav-link'}>
+                        <a href="#contact" style={linkstyle} onClick={() => handlepagechange('Contact')} className={currentpage === 'Contact' ? 'nav-link active' : 'nav-link'}>
                             Contact
                         </a>
                     </li>
