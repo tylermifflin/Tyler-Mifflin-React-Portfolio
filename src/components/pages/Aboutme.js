@@ -1,4 +1,12 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import aboutme from '../images/aboutme.jpg';
+
+const aboutmeimgstyle = {
+    height: "100%",
+    display: "flex",
+}
+
 
 export default function Aboutme() {
     return (
@@ -9,7 +17,7 @@ export default function Aboutme() {
             I am passionate about coding, physical and mental health, outdoor recreation, the environment, and photography.
             </p> 
             {/* add about me picture here */}
-            <img src="../images/aboutme.jpg" alt="about me" />
+            <img src={aboutme} alt="about me" className='card-img-top' style={aboutmeimgstyle} />
         </div>
     )
 }
