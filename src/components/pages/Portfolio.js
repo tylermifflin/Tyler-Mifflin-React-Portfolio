@@ -2,18 +2,21 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import priestlakenorthenlights from '../images/priestlakenorthernlights.jpg'
 import mesaarch from '../images/mesaarch.jpg'
+import northernlightsiceland21 from '../images/northernlightsiceland21.jpg'
+import reflectioncanyon from '../images/reflectioncanyon.jpg'
+import montrotuiridge from '../images/montrotuiridge.jpg'
+import thewave from '../images/thewave.jpg'
+
 
 const imagestyle = {
     height: "100%",
+    display: "flex",
 }
 
 export default function Portfolio() {
     return (
         <div className='container'>
             <h1>Portfolio</h1>
-            <p>
-            Here is a list of my projects:
-            </p>
             {/* add 6 projects with an image, link to github and a link to deployed project */}
             <div className='row'>
               <div className='col-lg-4 col-md-6 mb-4'>
@@ -41,7 +44,7 @@ export default function Portfolio() {
               </div>
                 <div className='col-lg-4 col-md-6 mb-4'>
                     <div className='card'>
-                     <img src="../components/images/northernlightsiceland21.jpg" alt="the northern lights in Iceland" className="card-img-top" style={imagestyle} />
+                     <img src={northernlightsiceland21} alt="the northern lights in Iceland" className="card-img-top" style={imagestyle} />
                       <div className='card-body'>
                       <a href="https://tylermifflin.github.io/Weather-Tracker/" class="photography-project">Weather Tracker</a>
                         </div>
@@ -52,7 +55,7 @@ export default function Portfolio() {
                 </div>
                 <div className='col-lg-4 col-md-6 mb-4'>
                  <div className='card'>
-                  <img src="../components/images/reflectioncanyon.jpeg" alt="reflection canyon" className="card-img-top" style={imagestyle} />
+                  <img src={reflectioncanyon} alt="reflection canyon" className="card-img-top" style={imagestyle} />
                     <div className='card-body'>
                     <a href="https://superscheduler.herokuapp.com/" class="create-the-life-of-your-dreams">Super Scheduler</a>
                     </div>
@@ -63,7 +66,7 @@ export default function Portfolio() {
                 </div>
              <div className='col-lg-4 col-md-6 mb-4'>
               <div className='card'>
-                <img src="../components/images/montrotuiridge.jpg" alt="a mountain ridge overlooking the ocean" className="card-img-top" style={imagestyle} />
+                <img src={montrotuiridge} alt="a mountain ridge overlooking the ocean" className="card-img-top" style={imagestyle} />
                     <div className='card-body'>
                     <a href="https://tylermifflin.github.io/Perfect-Planner/" class="travel-stoked">Perfect Planner</a>
                     </div>
@@ -74,7 +77,7 @@ export default function Portfolio() {
              </div>
              <div className='col-lg-4 col-md-6 mb-4'>
               <div className='card'>
-            <img src="../components/images/thewave.jpg" alt="the Wave, Arizona" className="card-img-top" style={imagestyle} />
+            <img src={thewave} alt="the Wave, Arizona" className="card-img-top" style={imagestyle} />
                     <div className='card-body'>
                     <a href="https://drive.google.com/file/d/17rxuHfYTDYamc2heJeu3Zq0QBeksTQWD/view" class="travel-stoked">Rapid ReadMe Producer</a>
                     </div>
