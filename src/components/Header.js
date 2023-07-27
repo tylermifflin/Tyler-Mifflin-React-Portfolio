@@ -1,18 +1,26 @@
 import React from 'react';
 
 const headerstyle = {
-    fontSize: '3rem',
+    fontSize: '4rem',
     color: 'aquamarine',
     fontfamily: 'Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif',
     justifyContent: 'center',
     padding: '10px',
     margin: '10px',
+    minheight: '100px',
+};
+
+const navbarContainer = {
+    display: 'flex',
+    justifyContent: 'space-between',
+    background: '#414A4C',
 };
 
 const navstyle = {
-    fontSize: '2rem',
+    fontSize: '3rem',
     color: 'white',
     fontfamily: 'Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif',
+    padding: '0 20px',
     
     
 };
@@ -24,7 +32,7 @@ export default function Header({currentpage, handlepagechange }) {
             <div className='container-fluid'>
              <div className='row'>
                <div className='col text-center'>
-            <nav className='navbar navbar-expand-lg'>
+            <nav className='navbar navbar-expand-lg' style={navbarContainer}>
             <h1 style={headerstyle}>Tyler Mifflin</h1>
                 <ul className='navbar-nav'>
                     <li className='nav-item'>
