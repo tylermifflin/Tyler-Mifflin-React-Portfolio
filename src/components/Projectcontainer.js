@@ -5,6 +5,8 @@ import Aboutme from './pages/Aboutme';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../App.css'
 
 export default function Projectcontainer(){
   const [currentpage, setcurrentpage] = useState('Aboutme');
@@ -27,7 +29,7 @@ export default function Projectcontainer(){
   const handlepagechange = (page) => setcurrentpage(page);
 
   return (
-    <div>
+    <div className='body'>
       <Header currentpage={currentpage} handlepagechange={handlepagechange} />
       <main>
         {renderpage()}
