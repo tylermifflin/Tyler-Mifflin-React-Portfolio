@@ -25,10 +25,10 @@ export default function Portfolio() {
                 {/* i want to access the images in my images folder and display them here */}
                  <img src={priestlakenorthenlights} alt="northern lights over Priest Lake" className="card-img-top" style={imagestyle} />
                     <div className='card-body'>
-                    <a href="https://becomethebestyou.herokuapp.com/">Become</a>
+                    <a href="https://becomethebestyou.herokuapp.com/" class="card-link">Become</a>
                     </div>
                     <div className='card-body'>
-                    <a href="https://github.com/tylermifflin/Become">Github</a>
+                    <a href="https://github.com/tylermifflin/Become" class="card-link">Github</a>
                     </div>
                 </div>
               </div>
@@ -36,10 +36,10 @@ export default function Portfolio() {
                 <div className='card'>
                  <img src={mesaarch} alt="Mesa Arch, Canyonlands" className="card-img-top" style={imagestyle} />
                     <div className='card-body'>
-                    <a href="https://dkargis.github.io/team-Inception/" class="whats-that-plant">Sherpa Trails</a>
+                    <a href="https://dkargis.github.io/team-Inception/" class="card-link">Sherpa Trails</a>
                     </div>
                     <div className='card-body'>
-                    <a href="https://github.com/Dkargis/team-Inception">Github</a>
+                    <a href="https://github.com/Dkargis/team-Inception" class="card-link">Github</a>
                     </div>
                 </div>
               </div>
@@ -47,10 +47,10 @@ export default function Portfolio() {
                     <div className='card'>
                      <img src={northernlightsiceland21} alt="the northern lights in Iceland" className="card-img-top" style={imagestyle} />
                       <div className='card-body'>
-                      <a href="https://tylermifflin.github.io/Weather-Tracker/" class="photography-project">Weather Tracker</a>
+                      <a href="https://tylermifflin.github.io/Weather-Tracker/" class="card-link">Weather Tracker</a>
                         </div>
                         <div className='card-body'>
-                      <a href="https://github.com/tylermifflin/Weather-Tracker">Github</a>
+                      <a href="https://github.com/tylermifflin/Weather-Tracker"class="card-link">Github</a>
                       </div>
                     </div>
                 </div>
@@ -58,10 +58,10 @@ export default function Portfolio() {
                  <div className='card'>
                   <img src={reflectioncanyon} alt="reflection canyon" className="card-img-top" style={imagestyle} />
                     <div className='card-body'>
-                    <a href="https://superscheduler.herokuapp.com/" class="create-the-life-of-your-dreams">Super Scheduler</a>
+                    <a href="https://superscheduler.herokuapp.com/" class="card-link">Super Scheduler</a>
                     </div>
                     <div className='card-body'>
-                    <a href="https://github.com/tylermifflin/Super-Scheduler">Github</a>
+                    <a href="https://github.com/tylermifflin/Super-Scheduler" class="card-link">Github</a>
                     </div>
                  </div>
                 </div>
@@ -69,10 +69,10 @@ export default function Portfolio() {
               <div className='card'>
                 <img src={montrotuiridge} alt="a mountain ridge overlooking the ocean" className="card-img-top" style={imagestyle} />
                     <div className='card-body'>
-                    <a href="https://tylermifflin.github.io/Perfect-Planner/" class="travel-stoked">Perfect Planner</a>
+                    <a href="https://tylermifflin.github.io/Perfect-Planner/" class="card-link">Perfect Planner</a>
                     </div>
                     <div className='card-body'>
-                    <a href="https://github.com/tylermifflin/Perfect-Planner">Github</a>
+                    <a href="https://github.com/tylermifflin/Perfect-Planner" class="card-link">Github</a>
                     </div>
               </div>
              </div>
@@ -80,10 +80,10 @@ export default function Portfolio() {
               <div className='card'>
             <img src={thewave} alt="the Wave, Arizona" className="card-img-top" style={imagestyle} />
                     <div className='card-body'>
-                    <a href="https://drive.google.com/file/d/17rxuHfYTDYamc2heJeu3Zq0QBeksTQWD/view" class="travel-stoked">Rapid ReadMe Producer</a>
+                    <a href="https://drive.google.com/file/d/17rxuHfYTDYamc2heJeu3Zq0QBeksTQWD/view" class="card-link">Rapid ReadMe Producer</a>
                     </div>
                     <div className='card-body'>
-                    <a href="https://github.com/tylermifflin/Rapid-README-Producer">Github</a>
+                    <a href="https://github.com/tylermifflin/Rapid-README-Producer" class="card-link">Github</a>
                     </div>
                 </div>
                 </div>
