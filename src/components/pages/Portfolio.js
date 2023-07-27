@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import priestlakenorthenlights from '../images/priestlakenorthernlights.jpg'
 
 const imagestyle = {
     height: "100%",
@@ -17,7 +18,7 @@ export default function Portfolio() {
               <div className='col-lg-4 col-md-6 mb-4'>
                 <div className='card'>
                 {/* i want to access the images in my images folder and display them here */}
-                 <img src="../components/images/Become.jpg" alt="screenshot of Become user homepage" className="card-img-top" style={imagestyle} />
+                 <img src={priestlakenorthenlights} alt="northern lights over Priest Lake" className="card-img-top" style={imagestyle} />
                     <div className='card-body'>
                     <a href="https://becomethebestyou.herokuapp.com/">Become</a>
                     </div>
