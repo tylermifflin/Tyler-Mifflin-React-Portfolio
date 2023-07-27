@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import priestlakenorthenlights from '../images/priestlakenorthernlights.jpg'
+import mesaarch from '../images/mesaarch.jpg'
 
 const imagestyle = {
     height: "100%",
@@ -29,7 +30,7 @@ export default function Portfolio() {
               </div>
               <div className='col-lg-4 col-md-6 mb-4'>
                 <div className='card'>
-                 <img src="../components/images/mesaarch.jpg" alt="Mesa Arch, Canyonlands" className="card-img-top" style={imagestyle} />
+                 <img src={mesaarch} alt="Mesa Arch, Canyonlands" className="card-img-top" style={imagestyle} />
                     <div className='card-body'>
                     <a href="https://dkargis.github.io/team-Inception/" class="whats-that-plant">Sherpa Trails</a>
                     </div>
