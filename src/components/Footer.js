@@ -7,12 +7,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const GitHubSyles = {
     fontSize: '3rem',
     color: 'black',
+    background: '#fff',
     display: 'flex flex-row'
 };
 
 const LinkedInSyles = {
     fontSize: '3rem',
     color: '#0A66C2',
+    background: '#fff',
     display: 'flex flex-row'
 };
 

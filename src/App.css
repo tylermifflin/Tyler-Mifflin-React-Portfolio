@@ -1,3 +1,17 @@
 body {
-    background-color: rgb(30, 223, 244);
+    background-color: black;
+}
+
+
+
+h1 {
+    color: aquamarine;
+}
+
+nav {
+    color: white;
+}
+
+p {
+    color: white;
 }
