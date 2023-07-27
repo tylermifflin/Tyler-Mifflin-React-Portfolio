@@ -25,7 +25,7 @@ export default function Portfolio() {
               <div>
             </div>
             <div className='row'>
-              <div className='col-lg-4 col-md-6 md-4'>
+              <div className='col-lg-4 col-md-6 mb-4'>
                 <div className='card'>
                  <img src="../images/mesaarch.jpg" alt="Mesa Arch, Canyonlands" style={imagestyle} />
                     <div className='card-body'>
@@ -36,7 +36,7 @@ export default function Portfolio() {
               <div>
             </div>
             <div className='row'>
-                <div className='col-lg-4 col-md-6 md-4'>
+                <div className='col-lg-4 col-md-6 mb-4'>
                     <div className='card'>
                      <img src="../images/northernlightsiceland21.jpg" alt="the northern lights in Iceland" style={imagestyle} />
                       <div className='card-body'>
@@ -44,10 +44,10 @@ export default function Portfolio() {
                       <a href="https://github.com/tylermifflin/Weather-Tracker">Github</a>
                       </div>
                     </div>
-                <div>
+                </div>
             </div>
             <div className='row'>
-                <div className='col-lg-4 col-md-6 md-4'>
+                <div className='col-lg-4 col-md-6 mb-4'>
                  <div className='card'>
                   <img src="../images/reflectioncanyon.jpeg" alt="reflection canyon" style={imagestyle} />
                     <div className='card-body'>
@@ -55,10 +55,10 @@ export default function Portfolio() {
                     <a href="https://github.com/tylermifflin/Super-Scheduler">Github</a>
                     </div>
                  </div>
-                <div>
+                </div>
             </div>
             <div className='row'>
-             <div className='col-lg-4 col-md-6 md-4'>
+             <div className='col-lg-4 col-md-6 mb-4'>
               <div className='card'>
                 <img src="../images/montrotuiridge.jpg" alt="a mountain ridge overlooking the ocean" style={imagestyle} />
                     <div className='card-body'>
@@ -66,10 +66,10 @@ export default function Portfolio() {
                     <a href="https://github.com/tylermifflin/Perfect-Planner">Github</a>
                     </div>
               </div>
-             <div>
+             </div>
             </div>
             <div className='row'>
-             <div className='col-lg-4 col-md-6 md-4'>
+             <div className='col-lg-4 col-md-6 mb-4'>
               <div className='card'>
             <img src="../images/thewave.jpg" alt="the Wave, Arizona" style={imagestyle} />
                     <div className='card-body'>
@@ -77,10 +77,11 @@ export default function Portfolio() {
                     <a href="https://github.com/tylermifflin/Rapid-README-Producer">Github</a>
                     </div>
                 </div>
-                <div>
+                </div>
             </div>
         </div>
-    </div>
     )
 }
+
+ 
                 
