@@ -3,7 +3,7 @@ import React from 'react';
 export default function Contact() {
     return (
         <div>
-            <h1>Contact Me</h1>
+            <h2>Contact Me</h2>
             <p>
             If you would like to work with me, please contact me at tyler.mifflin1@hotmail.com or reach me at 801-580-6702.
             </p>

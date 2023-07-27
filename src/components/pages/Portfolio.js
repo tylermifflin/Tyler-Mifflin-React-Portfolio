@@ -17,7 +17,7 @@ const imagestyle = {
 export default function Portfolio() {
     return (
         <div className='container'>
-            <h1 className='card-title'>Portfolio</h1>
+            <h2 className='card-title'>Portfolio</h2>
             {/* add 6 projects with an image, link to github and a link to deployed project */}
             <div className='row'>
               <div className='col-lg-4 col-md-6 mb-4'>

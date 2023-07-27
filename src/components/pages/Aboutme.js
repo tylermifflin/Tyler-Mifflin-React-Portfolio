@@ -11,7 +11,7 @@ const aboutmeimgstyle = {
 export default function Aboutme() {
     return (
         <div className='container'>
-            <h1>About Me</h1>
+            <h2>About Me</h2>
             <div className='row'>
              <div className='col-md-6'>
               <p>
