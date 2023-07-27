@@ -17,7 +17,7 @@ export default function Portfolio() {
               <div className='col-lg-4 col-md-6 mb-4'>
                 <div className='card'>
                 {/* i want to access the images in my images folder and display them here */}
-                 <img src="./images/priestlakenorthernlights.jpg" alt="the northern lights over Priest Lake" className="card-img-top" style={imagestyle} />
+                 <img src="../components/images/Become.jpg" alt="screenshot of Become user homepage" className="card-img-top" style={imagestyle} />
                     <div className='card-body'>
                     <a href="https://becomethebestyou.herokuapp.com/">Become</a>
                     </div>
@@ -28,7 +28,7 @@ export default function Portfolio() {
               </div>
               <div className='col-lg-4 col-md-6 mb-4'>
                 <div className='card'>
-                 <img src="../images/mesaarch.jpg" alt="Mesa Arch, Canyonlands" style={imagestyle} />
+                 <img src="../components/images/mesaarch.jpg" alt="Mesa Arch, Canyonlands" className="card-img-top" style={imagestyle} />
                     <div className='card-body'>
                     <a href="https://dkargis.github.io/team-Inception/" class="whats-that-plant">Sherpa Trails</a>
                     </div>
@@ -39,7 +39,7 @@ export default function Portfolio() {
               </div>
                 <div className='col-lg-4 col-md-6 mb-4'>
                     <div className='card'>
-                     <img src="../images/northernlightsiceland21.jpg" alt="the northern lights in Iceland" style={imagestyle} />
+                     <img src="../components/images/northernlightsiceland21.jpg" alt="the northern lights in Iceland" className="card-img-top" style={imagestyle} />
                       <div className='card-body'>
                       <a href="https://tylermifflin.github.io/Weather-Tracker/" class="photography-project">Weather Tracker</a>
                         </div>
@@ -50,7 +50,7 @@ export default function Portfolio() {
                 </div>
                 <div className='col-lg-4 col-md-6 mb-4'>
                  <div className='card'>
-                  <img src="../images/reflectioncanyon.jpeg" alt="reflection canyon" style={imagestyle} />
+                  <img src="../components/images/reflectioncanyon.jpeg" alt="reflection canyon" className="card-img-top" style={imagestyle} />
                     <div className='card-body'>
                     <a href="https://superscheduler.herokuapp.com/" class="create-the-life-of-your-dreams">Super Scheduler</a>
                     </div>
@@ -61,7 +61,7 @@ export default function Portfolio() {
                 </div>
              <div className='col-lg-4 col-md-6 mb-4'>
               <div className='card'>
-                <img src="../images/montrotuiridge.jpg" alt="a mountain ridge overlooking the ocean" style={imagestyle} />
+                <img src="../components/images/montrotuiridge.jpg" alt="a mountain ridge overlooking the ocean" className="card-img-top" style={imagestyle} />
                     <div className='card-body'>
                     <a href="https://tylermifflin.github.io/Perfect-Planner/" class="travel-stoked">Perfect Planner</a>
                     </div>
@@ -72,7 +72,7 @@ export default function Portfolio() {
              </div>
              <div className='col-lg-4 col-md-6 mb-4'>
               <div className='card'>
-            <img src="../images/thewave.jpg" alt="the Wave, Arizona" style={imagestyle} />
+            <img src="../components/images/thewave.jpg" alt="the Wave, Arizona" className="card-img-top" style={imagestyle} />
                     <div className='card-body'>
                     <a href="https://drive.google.com/file/d/17rxuHfYTDYamc2heJeu3Zq0QBeksTQWD/view" class="travel-stoked">Rapid ReadMe Producer</a>
                     </div>
