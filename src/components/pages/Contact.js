@@ -15,6 +15,16 @@ export default function Contact() {
         }
     };
 
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        const emailinput = document.getElementById('email');
+        const email = emailinput.value;
+        if(!validateEmail(email)) {
+            alert('Please enter a valid email address');
+        }
+    };
+
+
     return (
         <div>
             <h2>Contact Me</h2>
