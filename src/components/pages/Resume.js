@@ -17,6 +17,10 @@ export default function Resume() {
             <div className='row'>
                 <div className='col'>
             <p>
+             Skills:
+             JavaScript, React, Express, Node, NoSQL, MySQL 
+            </p>       
+            <p>
             Here is a link to my resume:
             <span style={linkcontainer}>
                     <a href="https://docs.google.com/document/d/17geriMyVB5jSeXVxP7kVoFsI4QCCEr3K/edit?usp=sharing&ouid=114561379459160840512&rtpof=true&sd=true" style={linkstyle} >Tyler Mifflin's Resume</a>
