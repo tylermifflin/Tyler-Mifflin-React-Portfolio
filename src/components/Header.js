@@ -18,7 +18,7 @@ const navbarContainer = {
 
 const navstyle = {
     fontSize: '3rem',
-    color: 'white',
+    color: 'aquamarine',
     fontfamily: 'Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif',
     padding: '0 20px',
     
