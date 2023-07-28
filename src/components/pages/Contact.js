@@ -1,6 +1,13 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 export default function Contact() {
+
+    const validateEmail = (email) => {
+        const re = /\S+@\S+\.\S+/;
+        return re.test(email);
+    };
+
     return (
         <div>
             <h2>Contact Me</h2>
