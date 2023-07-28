@@ -8,6 +8,13 @@ export default function Contact() {
         return re.test(email);
     };
 
+    const handleCursorleave = (event) => {
+        const { name, value } = event.target;
+        if(value.trim() === '') {
+            alert(`${name} is required`);
+        }
+    };
+
     return (
         <div>
             <h2>Contact Me</h2>
