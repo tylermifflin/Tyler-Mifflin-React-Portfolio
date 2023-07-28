@@ -32,13 +32,19 @@ export default function Contact() {
             If you would like to work with me, please contact me at tyler.mifflin1@hotmail.com or reach me at 801-580-6702.
             </p>
             {/* add a contact form that lets user put in name, email, and message and validates email */}
-            <form onSubmit={handleSubmit}>
-                <label for="name">Name:</label>
+            <form className='form-control mb-3' onSubmit={handleSubmit}>
+                <div className='mb-3'>
+                <label for="name" className='form-label'>Name:</label>
                 <input type="text" id="name" name="name" className='form-control' placeholder="Your name.." required onCusorleave={handleCursorleave}></input>
-                <label for="email">Email:</label>
+                </div>
+                <div className='mb-3'>
+                <label for="email" className='form-label'>Email:</label>
                 <input type="email" id="email" name="email" className='form-control' placeholder="Your email.." required onCusorleave={handleCursorleave}></input>
-                <label for="message">Message:</label>
+                </div>
+                <div className='mb-3'>
+                <label for="message" className='form-label'>Message:</label>
                 <textarea id="message" name="message" className='form-control' placeholder="Write something.." required onCusorleave={handleCursorleave}></textarea>
+                </div>
                 <input type="submit" value="Submit" className='btn btn-primary mt-3'></input>
             </form>
         </div>
@@ -46,4 +52,3 @@ export default function Contact() {
 
     )
 }
-
