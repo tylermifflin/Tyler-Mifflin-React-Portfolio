@@ -33,13 +33,13 @@ export default function Contact() {
             </p>
             {/* add a contact form that lets user put in name, email, and message and validates email */}
             <form onSubmit={handleSubmit}>
-                <label htmlfor="name">Name:</label>
+                <label for="name">Name:</label>
                 <input type="text" id="name" name="name" className='form-control' placeholder="Your name.." required onCusorleave={handleCursorleave}></input>
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="Your email.." required></input>
+                <input type="email" id="email" name="email" className='form-control' placeholder="Your email.." required onCusorleave={handleCursorleave}></input>
                 <label for="message">Message:</label>
-                <textarea id="message" name="message" placeholder="Write something.." required></textarea>
-                <input type="submit" value="Submit"></input>
+                <textarea id="message" name="message" className='form-control' placeholder="Write something.." required onCusorleave={handleCursorleave}></textarea>
+                <input type="submit" value="Submit" className='btn btn-primary mt-3'></input>
             </form>
         </div>
 
