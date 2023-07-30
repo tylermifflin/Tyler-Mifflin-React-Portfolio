@@ -21,10 +21,7 @@ const navstyle = {
     color: 'aquamarine',
     fontfamily: 'Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif',
     padding: '0 20px',
-    
-    
 };
-
 
 export default function Header({currentpage, handlepagechange }) {
     return (

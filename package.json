@@ -1,5 +1,5 @@
 {
-  "name": "00-practice-app",
+  "name": "Tyler-Mifflin-React-Portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,7 +14,8 @@
     "react-dom": "^17.0.2",
     "react-icons": "^4.10.1",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "homepage": "https://tylermifflin.github.io/Tyler-Mifflin-React-Portfolio"
   },
   "scripts": {
     "start": "react-scripts start",
