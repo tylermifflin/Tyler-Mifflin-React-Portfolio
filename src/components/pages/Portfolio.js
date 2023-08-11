@@ -33,6 +33,17 @@ export default function Portfolio() {
                 </div>
               </div>
               <div className='col-lg-4 col-md-6 mb-4'>
+                    <div className='card'>
+                     <img src={northernlightsiceland21} alt="the northern lights in Iceland" className="card-img-top" style={imagestyle} />
+                      <div className='card-body'>
+                      <a href="https://drill-sergeant-dda0cd61e869.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="card-link">Drill Sergeant</a>
+                        </div>
+                        <div className='card-body'>
+                      <a href="https://github.com/Evermuniz/Drill-Sergeant" target="_blank" rel="noopener noreferrer" className="card-link">Github</a>
+                      </div>
+                    </div>
+                </div>
+              <div className='col-lg-4 col-md-6 mb-4'>
                 <div className='card'>
                  <img src={mesaarch} alt="Mesa Arch, Canyonlands" className="card-img-top" style={imagestyle} />
                     <div className='card-body'>
@@ -43,17 +54,6 @@ export default function Portfolio() {
                     </div>
                 </div>
               </div>
-                <div className='col-lg-4 col-md-6 mb-4'>
-                    <div className='card'>
-                     <img src={northernlightsiceland21} alt="the northern lights in Iceland" className="card-img-top" style={imagestyle} />
-                      <div className='card-body'>
-                      <a href="https://drill-sergeant-dda0cd61e869.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="card-link">Weather Tracker</a>
-                        </div>
-                        <div className='card-body'>
-                      <a href="https://github.com/Evermuniz/Drill-Sergeant" target="_blank" rel="noopener noreferrer" className="card-link">Github</a>
-                      </div>
-                    </div>
-                </div>
                 <div className='col-lg-4 col-md-6 mb-4'>
                  <div className='card'>
                   <img src={reflectioncanyon} alt="reflection canyon" className="card-img-top" style={imagestyle} />
