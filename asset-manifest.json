@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Tyler-Mifflin-React-Portfolio/static/css/main.49fa1dd5.css",
-    "main.js": "/Tyler-Mifflin-React-Portfolio/static/js/main.116b27e2.js",
+    "main.js": "/Tyler-Mifflin-React-Portfolio/static/js/main.171db1f7.js",
     "static/media/thewave.jpg": "/Tyler-Mifflin-React-Portfolio/static/media/thewave.896255a8bdaabc1a1d5c.jpg",
     "static/media/priestlakenorthernlights.jpg": "/Tyler-Mifflin-React-Portfolio/static/media/priestlakenorthernlights.b0e24b74e0ec785fe857.jpg",
     "static/media/montrotuiridge.jpg": "/Tyler-Mifflin-React-Portfolio/static/media/montrotuiridge.0476d905eb3bf6d19526.jpg",
@@ -11,10 +11,10 @@
     "static/media/aboutme.jpg": "/Tyler-Mifflin-React-Portfolio/static/media/aboutme.dac9aaae808cb3169159.jpg",
     "index.html": "/Tyler-Mifflin-React-Portfolio/index.html",
     "main.49fa1dd5.css.map": "/Tyler-Mifflin-React-Portfolio/static/css/main.49fa1dd5.css.map",
-    "main.116b27e2.js.map": "/Tyler-Mifflin-React-Portfolio/static/js/main.116b27e2.js.map"
+    "main.171db1f7.js.map": "/Tyler-Mifflin-React-Portfolio/static/js/main.171db1f7.js.map"
   },
   "entrypoints": [
     "static/css/main.49fa1dd5.css",
-    "static/js/main.116b27e2.js"
+    "static/js/main.171db1f7.js"
   ]
 }
