@@ -47,10 +47,10 @@ export default function Portfolio() {
                     <div className='card'>
                      <img src={northernlightsiceland21} alt="the northern lights in Iceland" className="card-img-top" style={imagestyle} />
                       <div className='card-body'>
-                      <a href="https://tylermifflin.github.io/Weather-Tracker/" target="_blank" rel="noopener noreferrer" className="card-link">Weather Tracker</a>
+                      <a href="https://drill-sergeant-dda0cd61e869.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="card-link">Weather Tracker</a>
                         </div>
                         <div className='card-body'>
-                      <a href="https://github.com/tylermifflin/Weather-Tracker" target="_blank" rel="noopener noreferrer" className="card-link">Github</a>
+                      <a href="https://github.com/Evermuniz/Drill-Sergeant" target="_blank" rel="noopener noreferrer" className="card-link">Github</a>
                       </div>
                     </div>
                 </div>
